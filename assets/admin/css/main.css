@@ -1,0 +1,268 @@
+@charset "UTF-8";
+.tixioPTwrapper {
+  margin: auto;
+  margin-top: 100px;
+}
+
+.tixioPTwrapper .container {
+  max-width: 900px !important;
+}
+
+.tixioPTwrapper .flex-row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.tixioPTwrapper .flex-row.s-b {
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.tixioPTwrapper .flex-row.center {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.tixioPTwrapper .flex-row.g-1 {
+  gap: 10px;
+}
+
+.tixioPTwrapper .flex-row.g-2 {
+  gap: 20px;
+}
+
+.tixioPTwrapper .flex-row.g-3 {
+  gap: 30px;
+}
+
+.tixioPTwrapper .flex-row.g-4 {
+  gap: 40px;
+}
+
+.tixioPTwrapper .flex-row.g-5 {
+  gap: 50px;
+}
+
+.tixioPTwrapper .flex-row.g-6 {
+  gap: 60px;
+}
+
+.tixioPTwrapper .flex-row.g-7 {
+  gap: 70px;
+}
+
+.tixioPTwrapper .flex-col {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.tixioPTwrapper .flex-col.space-between {
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.tixioPTwrapper .flex-col.center {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.tixioPTwrapper .flex-col.half {
+  width: 50%;
+}
+
+.tixioPTwrapper .flex-col.g-1 {
+  gap: 10px;
+}
+
+.tixioPTwrapper .flex-col.g-2 {
+  gap: 20px;
+}
+
+.tixioPTwrapper .flex-col.g-3 {
+  gap: 30px;
+}
+
+.tixioPTwrapper .flex-col.g-4 {
+  gap: 40px;
+}
+
+.tixioPTwrapper .flex-col.g-5 {
+  gap: 50px;
+}
+
+.tixioPTwrapper .flex-col.g-6 {
+  gap: 60px;
+}
+
+.tixioPTwrapper .flex-col.g-7 {
+  gap: 70px;
+}
+
+.tixioPTwrapper .show {
+  display: block;
+}
+
+.tixioPTwrapper .hide {
+  display: none;
+}
+
+.tixioPTwrapper .form-step-title {
+  margin-bottom: 50px;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.tixioPTwrapper .l-box {
+  margin: auto;
+  border: 1px solid;
+  padding: 60px;
+  margin-bottom: 100px;
+}
+
+.tixioPTwrapper .group-title h3 {
+  font-size: 22px;
+}
+
+.tixioPTwrapper .form-group {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 30px;
+}
+
+.tixioPTwrapper input,
+.tixioPTwrapper select {
+  padding: 10px;
+  font-size: 18px;
+  max-width: 100% !important;
+  width: 100% !important;
+}
+
+.tixioPTwrapper input[name='select_wp_fields'],
+.tixioPTwrapper select[name='select_wp_fields'] {
+  margin-bottom: 50px;
+}
+
+.tixioPTwrapper .btn.ctr {
+  height: 50px;
+  border: 1px solid #cbcbcb;
+}
+
+.tixioPTwrapper .btn.ctr::after {
+  font-size: 14px;
+  position: relative;
+  left: -2px;
+  top: 0px;
+}
+
+.tixioPTwrapper .btn.ctr.edit {
+  background: #f3ffaf;
+}
+
+.tixioPTwrapper .btn.ctr.edit:after {
+  content: '✏️';
+}
+
+.tixioPTwrapper .btn.ctr.remove {
+  background: #ffdede;
+}
+
+.tixioPTwrapper .btn.ctr.remove:after {
+  content: '❌';
+}
+
+.tixioPTwrapper .btn.ctr.update {
+  background: #cdffc6;
+}
+
+.tixioPTwrapper .btn.ctr.update:after {
+  content: '✔️';
+}
+
+.tixioPTwrapper .btn.ctr.add {
+  background: #292929;
+}
+
+.tixioPTwrapper .btn.ctr.add:after {
+  content: '➕';
+}
+
+.tixioPTwrapper .btn.ctr:hover {
+  background-color: #414141;
+}
+
+.tixioPTwrapper .submit {
+  margin-top: 50px;
+  padding: 10px 60px;
+  background-color: #2271b1;
+  font-size: 18px;
+}
+
+.tixioPTwrapper .add-more-btn {
+  background-color: #2c3338;
+}
+
+.tixioPTwrapper .add-more-btn:hover {
+  background-color: #2271b1;
+}
+
+.tatumation-wrapper.darkmode {
+  color: white;
+  background-color: #071823;
+}
+
+.tatumation-wrapper.darkmode .button {
+  background-color: #1d1d1d;
+}
+
+.field-connection .field-name {
+  font-size: 18px;
+  min-width: 100px;
+}
+
+.field-connection li {
+  list-style: none;
+}
+
+.field-connection li .flex-col {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.h-line {
+  height: 1px;
+  min-width: 100%;
+  background-image: -webkit-gradient(linear, left top, right top, color-stop(40%, #000), color-stop(20%, rgba(255, 255, 255, 0)));
+  background-image: linear-gradient(to right, #000 40%, rgba(255, 255, 255, 0) 20%);
+  background-position: top;
+  background-size: 5px 1px;
+  background-repeat: repeat-x;
+}
+
+#statusBox {
+  background: #e8e8e8;
+  padding: 20px;
+  color: #b60000;
+  font-weight: 500;
+  border-radius: 10px;
+}
+
+#formStep4 .l-box {
+  margin-bottom: 0;
+}
+/*# sourceMappingURL=main.css.map */
